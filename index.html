@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synverge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png.png" alt="Synverge">
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="liquid-animation">
+            <div class="liquid-blob blob-1"></div>
+            <div class="liquid-blob blob-2"></div>
+            <div class="liquid-blob blob-3"></div>
+            <div class="liquid-blob blob-4"></div>
+            <div class="liquid-blob blob-5"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="glass-box">
+                <span class="tag">EVERY BLOCK, IN SYNC.</span>
+                <h1>We build tools and infrastructure for Web3</h1>
+                <h2>Active contributors to the Flow ecosystem — from hackathon wins to developer tooling and security discoveries.</h2>
+                <div class="button-group">
+                    <button class="btn" onclick="document.getElementById('flowser-section').scrollIntoView({ behavior: 'smooth', block: 'start' })">OUR WORK</button>
+                    <button class="btn">GET IN TOUCH</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Card Slider Section -->
+    <section class="slider-section">
+        <div class="slider-container">
+            <button class="slider-arrow slider-arrow-left">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <button class="slider-arrow slider-arrow-right">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+            <div class="slider-wrapper">
+                <div class="slider-card" data-section="cadence-section">
+                    <img src="bg.jpg" alt="Background" class="card-bg">
+                    <img src="cadance.png" alt="Cadence" class="card-image">
+                    <div class="card-glass">
+                        <h3>Cadence programming language formatter</h3>
+                        <p>Built a code formatter for Flow's Cadence language to improve developer productivity.</p>
+                    </div>
+                </div>
+                
+                <div class="slider-card" data-section="awards-banner">
+                    <img src="bg.jpg" alt="Background" class="card-bg">
+                    <img src="flow.png" alt="Flow" class="card-image">
+                    <div class="card-glass">
+                        <h3>High-severity security vulnerability reward</h3>
+                        <p>Discovered a high-severity DoS vulnerability, and received a responsible disclosure reward.</p>
+                    </div>
+                </div>
+                
+                <div class="slider-card" data-section="interact-section">
+                    <img src="bg.jpg" alt="Background" class="card-bg">
+                    <img src="interact.png" alt="Interact" class="card-image">
+                    <div class="card-glass">
+                        <h3>Interact: transaction registry explorer for Flow</h3>
+                        <p>Created a web app for testing and exploring verified Flow transaction templates.</p>
+                    </div>
+                </div>
+                
+                <div class="slider-card" data-section="linklock-section">
+                    <img src="bg.jpg" alt="Background" class="card-bg">
+                    <img src="linklock.png" alt="LinkLock" class="card-image">
+                    <div class="card-glass">
+                        <h3>LinkLock: community membership management protocol</h3>
+                        <p>Developed on-chain smart contracts and a client app for managing blockchain memberships.</p>
+                    </div>
+                </div>
+                
+                <div class="slider-card" data-section="flowser-section">
+                    <img src="bg.jpg" alt="Background" class="card-bg">
+                    <img src="flowser.png" alt="Flowser" class="card-image">
+                    <div class="card-glass">
+                        <h3>Flowser: development tool for Flow</h3>
+                        <p>Built a desktop app for Flow developers with CLI integration and advanced developer tools.</p>
+                    </div>
+                </div>
+                
+                <div class="slider-card" data-section="awards-banner">
+                    <img src="bg.jpg" alt="Background" class="card-bg">
+                    <img src="flip-fest.png" alt="FLIP-fest" class="card-image">
+                    <div class="card-glass">
+                        <h3>Flow FLIP-fest 2021 winners</h3>
+                        <p>Won Flow's two-month FLIP-fest hackathon with the Flowser Block Explorer GUI, sparking the creation of the Flowser developer suite.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Achievements Banner -->
+    <section class="achievements-banner">
+        <div class="achievement-card">
+            <h3>2</h3>
+            <h4>Developer Grants</h4>
+            <p>Funded by the Flow Foundation to build open-source developer tools.</p>
+        </div>
+        
+        <div class="achievement-card">
+            <h3>1</h3>
+            <h4>Hackathon Win</h4>
+            <p>Winners of Flow's FLIP-fest 2021 with the Flowser Block Explorer GUI.</p>
+        </div>
+        
+        <div class="achievement-card">
+            <h3>1</h3>
+            <h4>Security Reward</h4>
+            <p>Awarded for responsibly disclosing a high-severity DoS vulnerability</p>
+        </div>
+    </section>
+    
+    <!-- Flowser Section -->
+    <section id="flowser-section" class="flowser-section">
+        <div class="flowser-container">
+            <div class="flowser-content">
+                <h2>Flowser</h2>
+                <h3>A developer tool designed for building, testing, and exploring the Flow blockchain — all in one place.</h3>
+                <p>Flowser simplifies how developers interact with Flow by combining the functionality of the Flow CLI, Playground, and block explorer into a single, intuitive desktop app. It's built to make blockchain development on Flow faster, clearer, and more visual.</p>
+                
+                <h4>What Flowser Does</h4>
+                <p>Flowser allows developers to inspect smart contracts, run scripts, and send transactions without needing to switch between tools or terminals. Whether you're testing locally or connecting to mainnet, Flowser visualizes your blockchain data in real time, helping you understand exactly what's happening on-chain.</p>
+                
+                <div class="flowser-buttons">
+                    <button class="read-more-btn" onclick="toggleFlowserContent()">+</button>
+                    <a href="https://github.com/onflow/developer-grants/issues/27" target="_blank" class="flowser-btn">DESKTOP APP</a>
+                    <a href="https://github.com/onflow/developer-grants/issues/150" target="_blank" class="flowser-btn">INTERACT SCREEN</a>
+                </div>
+                
+                <div id="flowser-extra-content" class="flowser-hidden-content">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><strong>Interactive Screen:</strong> Run and debug Cadence scripts and transactions through a visual interface.</li>
+                        <li><strong>Network Integration:</strong> Connect directly to Flow emulator, testnet, or mainnet to observe real-time activity.</li>
+                        <li><strong>Account Management:</strong> Manage keys, balances, and deployed contracts from one unified dashboard.</li>
+                        <li><strong>CLI Sync:</strong> Flowser integrates seamlessly with the Flow CLI, syncing your environment automatically.</li>
+                        <li><strong>Developer-Focused Design:</strong> Every feature is optimized for speed, clarity, and ease of experimentation.</li>
+                    </ul>
+                    
+                    <p>We built a desktop application tailored for the Flow ecosystem developers over the course of two grants.</p>
+                </div>
+            </div>
+            <div class="flowser-video">
+                <video autoplay loop muted playsinline>
+                    <source src="promo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <!-- LinkLock Section -->
+    <section class="linklock-section">
+        <div class="linklock-container">
+            <div class="linklock-images">
+                <img src="naslovnica.png" alt="LinkLock Main" class="linklock-main-image">
+                <div class="linklock-sub-images">
+                    <img src="1.png" alt="LinkLock Feature 1">
+                    <img src="2.png" alt="LinkLock Feature 2">
+                    <img src="3.png" alt="LinkLock Feature 3">
+                </div>
+                <img src="4.png" alt="LinkLock Additional" class="linklock-extra-image" id="linklock-extra-image" style="display: none;">
+            </div>
+            <div class="linklock-content">
+                <div class="linklock-content-wrapper">
+                    <h2>LinkLock</h2>
+                    <h3>Community membership management protocol</h3>
+                    <p>Flow blockchain protocol for managing community memberships on-chain. Built to power a new layer of digital ownership, LinkLock lets creators and developers manage, verify, and gate content access entirely through smart contracts — no middlemen, no off-chain logic.</p>
+                    
+                    <h4>How it works</h4>
+                    <p>LinkLock provides a framework that other services can integrate to create, sell, and manage memberships. Each membership lives fully on-chain and can be used to unlock exclusive content or experiences.</p>
+                    
+                    <div id="linklock-extra-content" class="linklock-hidden-content">
+                        <h4>Content Gating</h4>
+                        <p>LinkLock enables creators to protect their digital content and make it accessible only to verified members. When a visitor connects their wallet, the system automatically checks for an active membership before showing the gated content.</p>
+                        
+                        <h4>Supportify</h4>
+                        <p>To demonstrate LinkLock in action, we built Supportify — a demo platform for issuing and managing memberships. It integrates with .find and Flowns to display on-chain account details and community information.</p>
+                        
+                        <h4>Technical Overview</h4>
+                        <p>LinkLock offers a lightweight integration for developers using React.js or Node.js, along with a reusable library for seamless compatibility with .find and Flowns domains.</p>
+                    </div>
+                </div>
+                
+                <div class="linklock-buttons">
+                    <button class="linklock-toggle-btn" onclick="toggleLinklockContent()">+</button>
+                    <a href="https://devfolio.co/projects/linklock-2686" target="_blank" class="linklock-btn">VIEW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Awards Banner -->
+    <section class="awards-banner">
+        <h2 class="awards-title">Awards and Special Achievements</h2>
+        <div class="awards-container">
+            <div class="award-card">
+                <img src="flip-fest.png" alt="FLIP-fest" class="award-image">
+                <h3>Flow FLIP-fest hackathon 2021 winners</h3>
+                <p>We won Flow's two-month FLIP-fest hackathon with the Flowser Block Explorer GUI, our first major step in building open-source tools for developers — a journey that has since evolved into Synverge.</p>
+                <a href="https://github.com/onflow/flip-fest" target="_blank" class="award-btn">VIEW</a>
+            </div>
+            
+            <div class="award-card">
+                <img src="flow.png" alt="Flow" class="award-image">
+                <h3>High-severity security vulnerability reward</h3>
+                <p>We also reported a high-severity DoS vulnerability in flow-go, earning a $1K reward and reinforcing our commitment to security and reliability in the Flow ecosystem.</p>
+                <a href="https://github.com/onflow/flow-go" target="_blank" class="award-btn">VIEW</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Cadence Section -->
+    <section class="cadence-section">
+        <div class="cadence-container">
+            <div class="cadence-content">
+                <h2>Cadence programming language formatter</h2>
+                <p>We developed an official code-formatter for the Cadence programming language to bring consistent, clean syntax and readability to smart contracts on the FLOW blockchain. By tackling the absence of a standard formatting tool, our work aimed to "…make the code consistent/easy-to-read style, making it easier for all developers to use and develop using Cadence."</p>
+                <p>The formatter retains comments in the abstract syntax tree, pretty-prints the annotated output, and integrates into the broader developer ecosystem — positioning Cadence for growth and maturation across the Flow ecosystem.</p>
+                
+                <div class="cadence-buttons">
+                    <a href="https://github.com/onflow/developer-grants/issues/266" target="_blank" class="cadence-btn">CADENCE FORMATTER</a>
+                </div>
+            </div>
+            <div class="cadence-image">
+                <img src="cadance.png" alt="Cadence Formatter">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Interact Section -->
+    <section class="interact-section">
+        <div class="interact-container">
+            <div class="interact-video">
+                <video autoplay loop muted playsinline>
+                    <source src="https://flowser.dev/videos/hero-demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="interact-content">
+                <h2>Interact: transaction registry explorer for Flow</h2>
+                <p>We built Flowser Interact, a web tool for exploring and testing verified Flow transaction templates. It allows developers to discover, customize, and execute transactions directly in the browser, simplifying on-chain experimentation and learning.</p>
+                <p>Designed as a live transaction registry for the Flow ecosystem, Interact bridges the gap between smart contract developers and application builders — making verified, reusable transaction code more accessible than ever.</p>
+                
+                <div class="interact-buttons">
+                    <a href="https://interact.flowser.dev/mainnet" target="_blank" class="interact-btn">INTERACT</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Synverge. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // Navigation scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Achievement cards scroll animation
+        const achievementCards = document.querySelectorAll('.achievement-card');
+        
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+        
+        achievementCards.forEach(card => {
+            observer.observe(card);
+        });
+
+        // Card Slider - Manual Navigation
+        const sliderCards = document.querySelectorAll('.slider-card');
+        const arrowLeft = document.querySelector('.slider-arrow-left');
+        const arrowRight = document.querySelector('.slider-arrow-right');
+        let currentSlide = 0;
+        const totalSlides = sliderCards.length;
+
+        function updateSlider() {
+            sliderCards.forEach((card, index) => {
+                // Calculate the position relative to current slide
+                let position = (index - currentSlide + totalSlides) % totalSlides;
+                
+                // Remove all transform classes
+                card.style.transform = '';
+                card.style.zIndex = '';
+                card.style.opacity = '';
+                
+                // Apply transforms based on position
+                if (position === 0) {
+                    card.style.transform = 'translateX(-400px) scale(0.85) rotateY(15deg)';
+                    card.style.zIndex = '1';
+                    card.style.opacity = '0.7';
+                } else if (position === 1) {
+                    card.style.transform = 'translateX(-200px) scale(0.92) rotateY(8deg)';
+                    card.style.zIndex = '2';
+                    card.style.opacity = '0.85';
+                } else if (position === 2) {
+                    card.style.transform = 'translateX(0) scale(1)';
+                    card.style.zIndex = '3';
+                    card.style.opacity = '1';
+                } else if (position === 3) {
+                    card.style.transform = 'translateX(200px) scale(0.92) rotateY(-8deg)';
+                    card.style.zIndex = '2';
+                    card.style.opacity = '0.85';
+                } else if (position === 4) {
+                    card.style.transform = 'translateX(400px) scale(0.85) rotateY(-15deg)';
+                    card.style.zIndex = '1';
+                    card.style.opacity = '0.7';
+                } else {
+                    card.style.transform = 'translateX(600px) scale(0.75) rotateY(-20deg)';
+                    card.style.zIndex = '0';
+                    card.style.opacity = '0';
+                }
+            });
+        }
+
+        // Arrow click handlers
+        if (arrowRight) {
+            arrowRight.addEventListener('click', () => {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                updateSlider();
+            });
+        }
+
+        if (arrowLeft) {
+            arrowLeft.addEventListener('click', () => {
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                updateSlider();
+            });
+        }
+        
+        // Initial setup
+        if (sliderCards.length > 0) {
+            updateSlider();
+        }
+        
+        // Slider card click to scroll to section
+        sliderCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const sectionId = card.getAttribute('data-section');
+                if (sectionId) {
+                    const section = document.querySelector('.' + sectionId);
+                    if (section) {
+                        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            });
+        });
+    
+        // Toggle Flowser content
+        function toggleFlowserContent() {
+            const content = document.getElementById('flowser-extra-content');
+            const button = document.querySelector('.read-more-btn');
+            
+            if (content && button) {
+                if (content.classList.contains('flowser-content-visible')) {
+                    content.classList.remove('flowser-content-visible');
+                    button.textContent = '+';
+                } else {
+                    content.classList.add('flowser-content-visible');
+                    button.textContent = '−';
+                }
+            }
+        }
+        
+        // Toggle LinkLock content
+        function toggleLinklockContent() {
+            const content = document.getElementById('linklock-extra-content');
+            const button = document.querySelector('.linklock-toggle-btn');
+            const image = document.getElementById('linklock-extra-image');
+            
+            if (content && button) {
+                if (content.classList.contains('linklock-content-visible')) {
+                    content.classList.remove('linklock-content-visible');
+                    button.textContent = '+';
+                    if (image) {
+                        image.style.display = 'none';
+                    }
+                } else {
+                    content.classList.add('linklock-content-visible');
+                    button.textContent = '−';
+                    if (image) {
+                        image.style.display = 'block';
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
