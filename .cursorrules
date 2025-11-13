@@ -1,0 +1,8 @@
+- When writing new code always check how other functions are written and match the style as well as reuse any existing code you can reuse.
+- when writing comments keep the lower-cased, and don't add comments based on the prompts, just add comments where it makes sense to explain complex code block or why we do something, don't over comment.
+- Don't create extra functions that are not required to complete the task (no nice to have functions or extra features)
+- Never change code that is not relevant to the prompt
+- When writing new code, keep it simple, well structured and seperated into functions
+- When fixing an error or failing test, keep changes as minimal as possible to fix the issue, don't touch code that is not related to the fix
+- After completing each user prompt, commit the changes with a descriptive commit message that summarizes what was changed or implemented
+
