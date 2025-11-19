@@ -893,6 +893,13 @@ body {
     line-height: 1.4;
 }
 
+.flowser-content .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 1.5rem 0 0.5rem 0;
+    line-height: 1.4;
+}
+
 .flowser-content h4 {
     font-size: 1.1rem;
     font-weight: 600;
