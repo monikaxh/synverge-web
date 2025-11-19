@@ -421,6 +421,15 @@ body {
     max-width: 900px;
 }
 
+.what-we-do-container .subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+    margin: 0 0 4rem 0;
+    line-height: 1.4;
+    max-width: 900px;
+}
+
 .what-we-do-intro {
     font-size: 1rem;
     color: #666;
