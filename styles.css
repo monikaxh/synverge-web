@@ -990,12 +990,12 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 0.75rem 2rem;
     font-size: 0.85rem;
     font-weight: 600;
     background-color: #2b2d2d;
     border: none;
-    border-radius: 50%;
+    border-radius: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     text-decoration: none;
     color: white;
@@ -1003,7 +1003,6 @@ body {
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
     position: relative;
-    width: 48px;
     height: 48px;
     line-height: 1;
 }
@@ -1114,12 +1113,12 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 0.75rem 2rem;
     font-size: 0.85rem;
     font-weight: 600;
     background-color: #2b2d2d;
     border: none;
-    border-radius: 50%;
+    border-radius: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     text-decoration: none;
     color: white;
@@ -1127,7 +1126,6 @@ body {
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
     position: relative;
-    width: 48px;
     height: 48px;
     line-height: 1;
 }
@@ -1209,12 +1207,12 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 0.75rem 2rem;
     font-size: 0.85rem;
     font-weight: 600;
     background-color: #2b2d2d;
     border: none;
-    border-radius: 50%;
+    border-radius: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     text-decoration: none;
     color: white;
@@ -1222,7 +1220,6 @@ body {
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
     position: relative;
-    width: 48px;
     height: 48px;
     line-height: 1;
 }
@@ -1376,12 +1373,12 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 0.75rem 2rem;
     font-size: 0.85rem;
     font-weight: 600;
     background-color: #2b2d2d;
     border: none;
-    border-radius: 50%;
+    border-radius: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     text-decoration: none;
     color: white;
@@ -1389,7 +1386,6 @@ body {
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
     position: relative;
-    width: 48px;
     height: 48px;
     line-height: 1;
 }
