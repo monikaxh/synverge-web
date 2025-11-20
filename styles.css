@@ -1056,11 +1056,11 @@ body {
     }
     
     .flowser-content {
-        order: 1;
+        order: 2;
     }
     
     .flowser-video {
-        order: 2;
+        order: 1;
         margin-bottom: 0;
     }
     
@@ -1204,19 +1204,19 @@ body {
     }
     
     .cadence-content {
-        order: 1;
+        order: 2;
     }
     
     .cadence-image {
-        order: 2;
-    }
-    
-    .interact-content {
         order: 1;
     }
     
-    .interact-video {
+    .interact-content {
         order: 2;
+    }
+    
+    .interact-video {
+        order: 1;
     }
     
     .cadence-content h2,
@@ -1524,11 +1524,11 @@ body {
     }
     
     .linklock-content {
-        order: 1;
+        order: 2;
     }
     
     .linklock-images {
-        order: 2;
+        order: 1;
     }
     
     .linklock-content h2 {
