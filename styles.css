@@ -1050,7 +1050,7 @@ body {
     
     .flowser-container {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 1rem;
     }
     
     .flowser-content h2 {
@@ -1059,6 +1059,10 @@ body {
     
     .flowser-content h3 {
         font-size: 1.2rem;
+    }
+    
+    .flowser-video {
+        margin-bottom: 0;
     }
 }
 
@@ -1492,7 +1496,11 @@ body {
     }
     
     .linklock-sub-images {
-        grid-template-columns: 1fr;
+        display: none;
+    }
+    
+    .linklock-extra-image {
+        display: block !important;
     }
 }
 
