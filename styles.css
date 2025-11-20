@@ -760,7 +760,7 @@ body {
 
 @media (max-width: 768px) {
     .what-we-do-section {
-        padding: 4rem 2rem;
+        padding: 4rem 2rem 2rem 2rem;
     }
     
     .what-we-do-container h2 {
@@ -1500,6 +1500,12 @@ body {
     padding: 40px 0 6rem 0;
     background-color: white;
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .slider-section {
+        padding: 40px 0 2rem 0;
+    }
 }
 
 .slider-title {
