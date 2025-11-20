@@ -240,7 +240,7 @@ body {
 
 @media (max-width: 768px) {
     .hero-character {
-        opacity: 0.3;
+        opacity: 1;
         right: 10px;
     }
     
