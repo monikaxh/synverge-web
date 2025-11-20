@@ -55,13 +55,13 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1.2rem;
     background-color: rgba(139, 92, 246, 0.1);
     color: #8b5cf6;
     border: 1px solid rgba(139, 92, 246, 0.2);
     text-decoration: none;
-    border-radius: 25px;
-    font-size: 0.9rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
     font-weight: 600;
     transition: all 0.3s ease;
 }
@@ -88,7 +88,7 @@ body {
     }
     
     .nav-cta {
-        padding: 0.6rem;
+        padding: 0.5rem;
         position: static;
     }
     
