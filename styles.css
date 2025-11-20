@@ -1057,6 +1057,7 @@ body {
     
     .flowser-content {
         order: 2;
+        text-align: center;
     }
     
     .flowser-video {
@@ -1211,6 +1212,7 @@ body {
     
     .cadence-content {
         order: 2;
+        text-align: center;
     }
     
     .cadence-image {
@@ -1227,6 +1229,7 @@ body {
     
     .interact-content {
         order: 2;
+        text-align: center;
     }
     
     .interact-video {
@@ -1539,6 +1542,7 @@ body {
     
     .linklock-content {
         order: 2;
+        text-align: center;
     }
     
     .linklock-images {
