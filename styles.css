@@ -1051,6 +1051,17 @@ body {
     .flowser-container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flowser-content {
+        order: 1;
+    }
+    
+    .flowser-video {
+        order: 2;
+        margin-bottom: 0;
     }
     
     .flowser-content h2 {
@@ -1059,10 +1070,6 @@ body {
     
     .flowser-content h3 {
         font-size: 1.2rem;
-    }
-    
-    .flowser-video {
-        margin-bottom: 0;
     }
 }
 
@@ -1188,6 +1195,28 @@ body {
     .cadence-interact-container {
         grid-template-columns: 1fr;
         gap: 4rem;
+    }
+    
+    .cadence-column,
+    .interact-column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cadence-content {
+        order: 1;
+    }
+    
+    .cadence-image {
+        order: 2;
+    }
+    
+    .interact-content {
+        order: 1;
+    }
+    
+    .interact-video {
+        order: 2;
     }
     
     .cadence-content h2,
@@ -1490,6 +1519,16 @@ body {
     .linklock-container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .linklock-content {
+        order: 1;
+    }
+    
+    .linklock-images {
+        order: 2;
     }
     
     .linklock-content h2 {
