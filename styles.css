@@ -1217,6 +1217,7 @@ body {
     .cadence-content {
         order: 2;
         text-align: center;
+        padding-right: 0;
     }
     
     .cadence-image {
