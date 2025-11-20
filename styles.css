@@ -1212,6 +1212,10 @@ body {
         order: 1;
     }
     
+    .cadence-image img {
+        content: url('cadance-mobile.png');
+    }
+    
     .interact-content {
         order: 2;
     }
@@ -1547,6 +1551,7 @@ body {
     .linklock-extra-image {
         display: block !important;
         margin-top: 0;
+        content: url('linklock-mobile.png');
     }
 }
 
