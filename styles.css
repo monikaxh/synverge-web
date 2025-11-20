@@ -31,7 +31,7 @@ body {
     padding: 1.5rem 3rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 3rem;
 }
 
@@ -43,6 +43,52 @@ body {
 .logo img {
     height: 28px;
     width: auto;
+}
+
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #2b2d2d;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-cta:hover {
+    background-color: #3d3f3f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-cta-text {
+    display: block;
+}
+
+.nav-cta-icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 1rem 1.5rem;
+    }
+    
+    .nav-cta {
+        padding: 0.6rem;
+    }
+    
+    .nav-cta-text {
+        display: none;
+    }
+    
+    .nav-cta-icon {
+        display: block;
+    }
 }
 
 .nav-menu {
