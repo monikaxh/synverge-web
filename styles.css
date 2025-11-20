@@ -56,8 +56,9 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #2b2d2d;
-    color: white;
+    background-color: rgba(139, 92, 246, 0.1);
+    color: #8b5cf6;
+    border: 1px solid rgba(139, 92, 246, 0.2);
     text-decoration: none;
     border-radius: 25px;
     font-size: 0.9rem;
@@ -66,9 +67,10 @@ body {
 }
 
 .nav-cta:hover {
-    background-color: #3d3f3f;
+    background-color: rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.4);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.2);
 }
 
 .nav-cta-text {
