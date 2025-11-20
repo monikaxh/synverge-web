@@ -1556,6 +1556,8 @@ body {
         display: block !important;
         margin-top: 0;
         content: url('linklock-mobile.png');
+        height: auto;
+        object-fit: contain;
     }
 }
 
