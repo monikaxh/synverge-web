@@ -31,13 +31,19 @@ body {
     padding: 1.5rem 3rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 3rem;
+    position: relative;
 }
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.nav-cta {
+    position: absolute;
+    right: 3rem;
 }
 
 .logo img {
@@ -76,10 +82,12 @@ body {
 @media (max-width: 768px) {
     .nav-container {
         padding: 1rem 1.5rem;
+        justify-content: space-between;
     }
     
     .nav-cta {
         padding: 0.6rem;
+        position: static;
     }
     
     .nav-cta-text {
