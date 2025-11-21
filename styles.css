@@ -85,17 +85,9 @@ body {
     }
     
     .nav-cta {
-        padding: 0.5rem;
+        padding: 0.5rem 1rem;
         position: static;
         right: auto;
-    }
-    
-    .nav-cta-text {
-        display: none;
-    }
-    
-    .nav-cta-icon {
-        display: block;
     }
 }
 
