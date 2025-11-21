@@ -726,7 +726,7 @@ body {
 }
 
 .card-badges {
-    display: grid;
+    display: none;
     grid-template-columns: auto auto;
     gap: 0.4rem;
     margin: 0 0 1.5rem 0;
