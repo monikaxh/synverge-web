@@ -1811,6 +1811,11 @@ body {
     margin: 0;
 }
 
+.card-glass-hidden-text h3,
+.card-glass-hidden-text p {
+    display: none;
+}
+
 /* Contact Banner Section */
 .contact-banner {
     padding: 6rem 3rem;
